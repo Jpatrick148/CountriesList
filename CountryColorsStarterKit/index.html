@@ -5,11 +5,22 @@
     <script src="country.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
+<h2>Please Select a Country.</h2>
+
+<h3><select id="CountryDropdown">
+        <option value="Merica" >Merica</option>
+        <option value="Canadia">Canadia</option>
+        <option value="Germany">Germany</option>
+        <option value="Finland">Finland</option>
+        <option value="Norway">Norway</option>
+    </select>
+    <button onclick="SwitchCountry()">Swap Country</button>
+</select></h3>
 
 <body id="Color1">
     <div id="Color2" class="centerElement halfWidth">
         <div id="Color3" class="floatLeft halfWidth">
-            <h2 id="CountryName">Country Name Goes here!</h2>
+            <h2 id="CountryName",value = country.Name>Country Name Goes here!</h2>
             <h2 id="OfficialLanguage">Official Language Goes here!</h2>
             <h2 id="HelloWorld">Hello World Goes here!</h2>
         </div>
