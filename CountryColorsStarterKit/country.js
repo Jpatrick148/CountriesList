@@ -15,9 +15,9 @@ class Country{
 
 
 var Merica = {name: "Merica",lang:"Merican",greeting:"Hello WOrld",colors:["Red","White","Blue"]}
-var Canadia = {name:"Canadia",lang:"Le French",greeting:"Bonjour le monde",colors:["Red","White"]}
+var Canadia = {name:"Canadia",lang:"Le French",greeting:"Bonjour le monde",colors:["Red","White","White"]}
 var Germany = {name: "Germany", lang:"German",greeting:"Hallo Welt",colors:["Black","Red","Gold"]}
-var Finland = {name:"Finland",lang:"Finnish",greeting:"Perkele",colors:["White","Blue"]}
+var Finland = {name:"Finland",lang:"Finnish",greeting:"Perkele",colors:["White","Blue","Blue"]}
 var Norway = {name:"Norway",lang:"Norwegian",greeting:"Helvete",colors:["Red","Blue","White"]}
 
 
